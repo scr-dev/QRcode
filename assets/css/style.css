@@ -3,8 +3,18 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Outfit:wght@400;500&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
 body{
-    background-color: #ccc;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 
 .container {
@@ -17,22 +27,50 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-color: var(--Light-gray);   
 }
 
 .qr__app {
     width: 320px;
     height: 497px;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    background-color: var(--White);
 }
 
 img {
-    width: 288px;
+    width: auto;
     height: 288px;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+   
+}
+
+h1 {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: var(--Dark-blue);
+}
+
+p {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #ccc;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    margin-top: 30px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
