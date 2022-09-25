@@ -23,8 +23,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/scr-dev/QRcode)
-- Live Site URL: [Add live site URL here](https://scr-dev.github.io/QRcode/)
+- Solution URL: [Github](https://github.com/scr-dev/QRcode)
+- Live Site URL: [Page demo](https://scr-dev.github.io/QRcode/)
 
 
 ### Built with
@@ -78,8 +78,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;    
-    background-color: var(--Light-gray);   
-    
+    background-color: var(--Light-gray);       
 }
 
 .qr__app {   
@@ -88,8 +87,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--White);
-   
+    background-color: var(--White);   
 }
 }
 ```
