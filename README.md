@@ -96,8 +96,8 @@ body{
 
 ## Author
 
-- Website - [Add your name here](https://github.com/scr-dev)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/scr-dev)
-- Twitter - [@yourusername](https://twitter.com/scrsidnei)
+- Website - [Sidnei Rodrigues](https://github.com/scr-dev)
+- Frontend Mentor - [@scr-dev](https://www.frontendmentor.io/profile/scr-dev)
+- Twitter - [@scrsidnei](https://twitter.com/scrsidnei)
 
 
